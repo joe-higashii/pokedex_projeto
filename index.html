@@ -18,8 +18,18 @@
 <body>
 
   <main>
-    <img src="#" alt="pokemon" class="pokemon__image">
 
+    <audio id="openingSong" src="./audio/opening_sound.mp3">
+    </audio>
+  
+    <script>
+      window.addEventListener("click", () => {
+        document.getElementById("openingSong").play();
+      });
+    </script>
+
+    <img src="#" alt="pokemon" class="pokemon__image">
+  
     <h1 class="pokemon__data">
       <span class="pokemon__number"></span> -
       <span class="pokemon__name"></span>
