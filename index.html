@@ -26,6 +26,8 @@
       window.addEventListener("click", () => {
         document.getElementById("openingSong").play();
       });
+      audio = document.getElementById("openingSong");
+      audio.volume = 0.3;
     </script>
 
     <img src="#" alt="pokemon" class="pokemon__image">
@@ -55,6 +57,8 @@
       });
       audio = document.getElementById("song");
       audio.playbackRate = 14.0;
+      audio = document.getElementById("openingSong");
+      audio.volume = 5.0;
     </script>
 
   </main>
