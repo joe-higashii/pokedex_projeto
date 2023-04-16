@@ -36,13 +36,15 @@
 
     <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
 
-    <audio id="song" src="./audio/opening_sound.mp3">
+    <audio id="song" src="./audio/button_effect.mp3">
     </audio>
 
     <script>
       window.addEventListener("click", () => {
         document.getElementById("song").play();
       });
+      audio = document.getElementById("song");
+      audio.playbackRate = 3.0;
     </script>
 
   </main>
